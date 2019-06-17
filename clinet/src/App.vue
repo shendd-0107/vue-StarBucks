@@ -164,7 +164,7 @@ export default {
           display: inline-block;
           width: pxTorem(70px);
           height: pxTorem(30px);
-          border:1px solid #ccc;
+          border:pxTorem(0.5px) solid #ccc;
           line-height: pxTorem(30px);
           font-size: pxTorem(12px);
           &.active{
@@ -173,10 +173,10 @@ export default {
           }
         }
         >.job{
-          border-radius: 30px 0 0  30px;
+          border-radius: pxTorem(15px) 0 0  pxTorem(15px);
         }
         >.happy{
-          border-radius: 0 30px 30px 0;
+          border-radius: 0 pxTorem(15px) pxTorem(15px) 0;
         }
       }
     }
@@ -186,7 +186,7 @@ export default {
       >.add-task{
         width: 35%;
         height: pxTorem(50px);
-        border-radius: 50px;
+        border-radius: pxTorem(25px);
         background: #056041;
         text-align: center;
         line-height: pxTorem(45px);
